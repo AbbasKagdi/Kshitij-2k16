@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kshitij2k16</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="yy">YY</string>
+    <string name="title_activity_front_page">FrontPage</string>
+    <string name="event">Event</string>
+    <string name="coordinators">Coordinators</string>
+    <string name="gallery">Gallery</string>
+    <string name="about">About</string>
+    <string name="ad">ad</string>
+    <string name="events">Events</string>
+    <string name="title_activity_event_list">EventList</string>
+    <string name="title_activity_co_ordinators">CoOrdinators</string>
+    <string name="title_activity_event_gallery">EventGallery</string>
+    <string name="title_activity_about_kshitij">AboutKshitij</string>
+    <string name="button">Button</string>
+    <string name="title_activity_event_detail">EventDetail</string>
+    <string name="textview">TextView</string>
+    <string name="evpix">evpix</string>
+    <string name="w">W</string>
+    <string name="f">F</string>
+    <string name="g">G</string>
+    <string name="k">K</string>
+    <string name="aboutus">TextView</string>
+    <string name="cord">Cordinators</string>
+    <string name="fb">Fb</string>
+    <string name="g_">G+</string>
+    <string name="news">New</string>
+
+</resources>

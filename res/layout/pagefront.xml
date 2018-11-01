@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00AAA3"
+    tools:context=".FrontPage" >
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/ad"
+        android:textSize="10sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingTop="30dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:gravity="center_horizontal" >
+
+            <ImageButton
+                android:id="@+id/ImageButton1"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/about"
+                android:scaleType="centerInside"
+                android:src="@drawable/eventsicon"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/ImageButton2"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/about"
+                android:scaleType="centerInside"
+                android:src="@drawable/silhouette"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <ImageButton
+                android:id="@+id/ImageButton3"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/about"
+                android:scaleType="centerInside"
+                android:src="@drawable/clip"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/ImageButton4"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/about"
+                android:scaleType="centerInside"
+                android:src="@drawable/compasss"
+                android:textSize="16sp" />
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
